@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     .status(200)
     .send('Hello server is running')
     .end();
-});
+}); 
  
 // Start the server
 const PORT = process.env.PORT ||  8080;
